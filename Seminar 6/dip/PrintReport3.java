@@ -5,7 +5,7 @@ import java.util.List;
 public class PrintReport3 extends Output {
     @Override
     public void output(List<ReportItem> items) {
-        String fileName = "OOP/Seminars/sem_6/dip/order.txt";
+        String fileName = "dip/order.txt";
 
         try (FileWriter writer = new FileWriter(fileName, false)) {
             for (ReportItem item : items)
